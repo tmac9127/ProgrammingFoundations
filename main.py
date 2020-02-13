@@ -8,8 +8,9 @@ print("Hello world")
 # runtime error
 # 10 * (2/0) - any number divided by 0 is undefined 
 
-# this is the correct entry
-10 * (10/2)
+# this is the correct entry / added the print command to see it
+answer = 10 * (10/2)
+print(answer)
 
 # semantic error
 # name = "Alice"
